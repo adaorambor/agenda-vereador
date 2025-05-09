@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const API_URL = '/api/events';
     const API_HEADERS = {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer ${'xTq*M>6AU'GF:YWv}`n<p,'}` // Substitua pela mesma chave do .env
+      'Authorization': `Bearer ${'uu1gu%#2le!^-fb!8gv*=h_oyu11e+@r0w74n6h)crxm^(dtd+p'}` // Substitua pela mesma chave do .env
     };
   
     // Elementos DOM
