@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Configurações
     const { jsPDF } = window.jspdf;
-    const API_URL = '/api/events';
+    const API_URL = 'https://agenda-vereador.onrender.com/api/events';
     const API_HEADERS = {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${'uu1gu%#2le!^-fb!8gv*=h_oyu11e+@r0w74n6h)crxm^(dtd+p'}` // Substitua pela mesma chave do .env
