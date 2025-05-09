@@ -11,9 +11,7 @@ if (!process.env.MONGODB_URI || !process.env.SECRET_KEY) {
 }
 
 // Middlewares
-app.use(cors({
-  origin: 'https://agenda-vereador.onrender.com' // 👈 Coloque a URL do SEU frontend
-}));
+app.use(express.static('public'));
 app.use(express.json());
 app.use(express.static('public'));
 
